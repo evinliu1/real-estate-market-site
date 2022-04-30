@@ -1,5 +1,5 @@
 <?php
 
-$conn = mysqli_connect('localhost','root','','user_db');
+$conn = mysqli_connect('localhost','eliu8','eliu8','eliu8');
 
 ?>
