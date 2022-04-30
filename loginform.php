@@ -3,7 +3,6 @@
 @include 'config.php';
 
 if(isset($_POST['submit'])){
-
    $name = mysqli_real_escape_string($conn, $_POST['name']);
    $email = mysqli_real_escape_string($conn, $_POST['email']);
    $pass = md5($_POST['password']);
@@ -29,16 +28,14 @@ if(isset($_POST['submit'])){
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <title>register</title>
+   <title>login</title>
    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
-   
 <div class="form-container">
-
    <form action="" method="post">
-      <h3>register now</h3>
+      <h3>log in</h3>
       <?php
       if(isset($error)){
          foreach($error as $error){
@@ -55,9 +52,8 @@ if(isset($_POST['submit'])){
          <option value="admin">admin</option>
       </select>
       <input type="submit" name="submit" value="register now" class="form-button">
-      <a href="loginform.php">login</a>
+      <a href="registrationform.php">sign up</a>
    </form>
-
 </div>
 
 </body>
