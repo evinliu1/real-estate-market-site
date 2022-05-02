@@ -71,7 +71,7 @@ $marketValue = $h4;
         <a href="#sell">Sell</a>
         <a href="#about">About</a>
         <a class="logout" href="loginform.php">Log Out</a>
-        <img class="logo" src="pictures/logo.png" style="width:60px;">
+        <img class="logo" src="logo.png" style="width:60px;">
     </div>
 
     <br>
