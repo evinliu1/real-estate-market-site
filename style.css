@@ -117,7 +117,7 @@
 }
 
 .splash {
-    background-image: url('/pictures/beachHouse.webp');
+    background-image: url('beachHouse.webp');
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
