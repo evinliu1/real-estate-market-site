@@ -234,3 +234,13 @@
     height: auto;
     max-width: 50%;
 }
+
+.summary{
+	font-family: Ariel;
+	width: 800px;
+	border: 2px;
+	padding: 1em;
+	background-color: #b5deca;
+	border-radius: 25px;
+	margin-bottom: 10%;
+}
