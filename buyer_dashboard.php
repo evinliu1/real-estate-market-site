@@ -53,11 +53,11 @@ $houses = $h4;
 
 <body style="background-color:#b5deca;">
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
+        <a class="active" href="home.html">Home</a>
         <a href="#news">Buy</a>
         <a href="#contact">Rent</a>
         <a href="#about">Sell</a>
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
         <a class="logout" href="loginform.php">Log Out</a>
         <img class="logo" src="pictures/logo.png" style="width:60px;">
     </div>
