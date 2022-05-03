@@ -42,7 +42,7 @@ $num_sellers = mysqli_num_rows($sellers);
         <a href="#news">Buy</a>
         <a href="#contact">Rent</a>
         <a href="#about">Sell</a>
-        <a href="#about">About</a>
+        <a href="about.html">About</a>
         <a class="logout" href="loginform.php">Log Out</a>
         <img class="logo" src="pictures/logo.png" style="width:60px;">
     </div>
