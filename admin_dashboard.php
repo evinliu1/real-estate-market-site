@@ -38,7 +38,7 @@ $num_sellers = mysqli_num_rows($sellers);
 
 <body style="background-color:#b5deca;">
     <div class="topnav">
-        <a class="active" href="#home">Home</a>
+        <a class="active" href="home.html">Home</a>
         <a href="#news">Buy</a>
         <a href="#contact">Rent</a>
         <a href="#about">Sell</a>
